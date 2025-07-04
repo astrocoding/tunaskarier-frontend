@@ -1,0 +1,112 @@
+.profile-section {
+  max-width: 480px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(30,144,255,0.06);
+  padding: 2rem 2rem 1.5rem 2rem;
+  text-align: center;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e3f0ff;
+  margin-bottom: 1rem;
+}
+.profile-badge {
+  font-size: 0.95rem;
+  padding: 0.3em 1em;
+  border-radius: 1em;
+  margin-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  .profile-section { padding: 1.2rem 0.7rem; }
+}
+
+.table-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e3f0ff;
+}
+.table-actions .btn {
+  margin-right: 0.3rem;
+}
+@media (max-width: 900px) {
+  .table-responsive { font-size: 0.97rem; }
+}
+
+/* Additional styles for StudentPage */
+.badge.bg-pink-subtle {
+  background-color: #fce7f3 !important;
+  color: #ec4899 !important;
+}
+
+.badge.bg-info-subtle {
+  background-color: #e0f2fe !important;
+  color: #0891b2 !important;
+}
+
+.badge.bg-success-subtle {
+  background-color: #dcfce7 !important;
+  color: #16a34a !important;
+}
+
+.badge.bg-primary-subtle {
+  background-color: #dbeafe !important;
+  color: #2563eb !important;
+}
+
+/* Responsive table improvements */
+@media (max-width: 1200px) {
+  .table-responsive {
+    font-size: 0.9rem;
+  }
+  
+  .table-responsive th,
+  .table-responsive td {
+    padding: 0.5rem 0.3rem;
+  }
+  
+  .table-actions .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 0.85rem;
+  }
+  
+  .table-responsive th,
+  .table-responsive td {
+    padding: 0.4rem 0.2rem;
+  }
+  
+  .table-actions .btn {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+    margin-right: 0.2rem;
+  }
+  
+  .badge {
+    font-size: 0.75em !important;
+  }
+}
+
+/* Hover effects for table rows */
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+/* Loading spinner improvements */
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+  color: #0d6efd;
+}

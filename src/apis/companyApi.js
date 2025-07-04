@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://159.223.59.60';
+const API_BASE_URL = 'https://159.223.59.60';
 
 // Fungsi untuk decode JWT token dan mengambil company_id
 const getCompanyIdFromToken = () => {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://159.223.59.60';
+const API_BASE_URL = 'https://159.223.59.60';
 
 // Get programs assigned to mentor
 export const getMentorPrograms = async (page = 1, limit = 6) => {

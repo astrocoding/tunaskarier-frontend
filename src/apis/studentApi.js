@@ -1,4 +1,4 @@
-const BASE_URL = 'http://159.223.59.60/api';
+const BASE_URL = 'https://159.223.59.60/api';
 
 export const getAvailablePrograms = async (page = 1, limit = 6) => {
   try {
